@@ -1,0 +1,85 @@
+/* reset */
+* {
+    padding: 0;
+    margin: 0;
+    border: 0;
+    box-sizing: border-box;
+    background: none;
+    list-style: none;
+    text-decoration: none;
+    background-color: #000;
+    font-family: "Alexandria", sans-serif;
+}
+
+/* base */
+li, p, a {
+    font-size: var(--font-text-1);
+    color: var(--color-neutral-gray-1);
+}
+
+a:hover {
+    color: var(--color-neutral-white);
+}
+
+button {
+    font-size: var(--font-button);
+    color: var(--color-neutral-white);
+}
+
+h1 {
+    font-size: var(--font-title-1);
+    color: var(--color-neutral-white);
+}
+
+.live {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 8px;
+    font-size: 14px;
+
+    width: 137px;
+    padding: 10px 12px;
+
+    color: var(--color-green);
+    border: 1px solid transparent;
+    border-radius: 24px;
+    background: linear-gradient(102deg, #000, #000) padding-box, linear-gradient(rgba(77, 77, 77, 0.6), rgba(179, 179, 179, 0.6));
+}
+
+.live-circle {
+    width: 9px;
+    height: 9px;
+    border-radius: 50%;
+    background-color: var(--color-green);
+}
+
+.subtitle {
+    font-size: var(--font-subtitle);
+}
+
+/* theme colors */
+
+:root {
+    --color-green: #9DFF3A;
+    --color-gradient: #3A7500;
+
+    --color-neutral-white: #E5E5E5;
+    --color-neutral-gray-1: #999999;
+    --color-neutral-gray-2: #4D4D4D;
+    --color-neutral-gray-3: #2E2E2E;
+    --color-neutral-gray-4: #0F0F0F; 
+}
+
+/* typography */
+
+:root {
+    --font-title-1: 64px;
+    --font-title-2: 48px;
+    --font-title-3: 40px;
+    --font-subtitle: 20px;
+    --font-button: 18px;
+    --font-text-1: 16px;
+    --font-text-2: 14px;
+    --font-caption: 12px;
+}
