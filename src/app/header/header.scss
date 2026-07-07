@@ -1,0 +1,34 @@
+header {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+
+    width: 100%;
+    height: 80px;
+}
+
+.nav-header {
+    display: flex;
+    gap: 40px;
+}
+
+.logo-wrapper {
+    display: flex;
+    align-items: center;
+    gap: 11px;
+}
+
+.logo-wrapper > p {
+    font-size: 22px;
+}
+
+.btn-wrapper-alt-1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 16px;
+}
+
+.btn-wrapper-alt-1 > button {
+    padding: 10px 24px;
+}

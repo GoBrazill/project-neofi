@@ -3,12 +3,14 @@
     padding: 0;
     margin: 0;
     border: 0;
+
     box-sizing: border-box;
-    background: none;
+    font-family: "Alexandria", sans-serif;
     list-style: none;
     text-decoration: none;
+    
+    background: none;
     background-color: #000;
-    font-family: "Alexandria", sans-serif;
 }
 
 /* base */
@@ -74,12 +76,12 @@ h1 {
 /* typography */
 
 :root {
-    --font-title-1: 64px;
-    --font-title-2: 48px;
-    --font-title-3: 40px;
-    --font-subtitle: 20px;
-    --font-button: 18px;
-    --font-text-1: 16px;
-    --font-text-2: 14px;
-    --font-caption: 12px;
+    --font-title-1: 4rem;
+    --font-title-2: 3rem;
+    --font-title-3: 2.5rem;
+    --font-subtitle: 1.25rem;
+    --font-button: 1.125rem;
+    --font-text-1: 1rem;
+    --font-text-2: 0.875rem;
+    --font-caption: 0.75rem;
 }
