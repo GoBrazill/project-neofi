@@ -1,0 +1,16 @@
+section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 40px;
+
+    padding: 40px;
+
+    background-color: var(--clr-neutral-gray-4);
+}
+
+.partner-wrapper {
+    display: flex;
+    gap: 50px;
+}
