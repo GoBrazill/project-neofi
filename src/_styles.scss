@@ -10,27 +10,30 @@
     text-decoration: none;
     
     background: none;
+}
+
+body {
     background-color: #000;
 }
 
 /* base */
 li, p, a {
     font-size: var(--font-text-1);
-    color: var(--color-neutral-gray-1);
+    color: var(--clr-neutral-gray-1);
 }
 
 a:hover {
-    color: var(--color-neutral-white);
+    color: var(--clr-neutral-white);
 }
 
 button {
     font-size: var(--font-button);
-    color: var(--color-neutral-white);
+    color: var(--clr-neutral-white);
 }
 
 h1 {
     font-size: var(--font-title-1);
-    color: var(--color-neutral-white);
+    color: var(--clr-neutral-white);
 }
 
 .live {
@@ -43,7 +46,7 @@ h1 {
     width: 137px;
     padding: 10px 12px;
 
-    color: var(--color-green);
+    color: var(--clr-green);
     border: 1px solid transparent;
     border-radius: 24px;
     background: linear-gradient(102deg, #000, #000) padding-box, linear-gradient(102deg, rgba(179, 179, 179, 0.6), rgba(77, 77, 77, 0.6)) border-box;
@@ -53,7 +56,7 @@ h1 {
     width: 9px;
     height: 9px;
     border-radius: 50%;
-    background-color: var(--color-green);
+    background-color: var(--clr-green);
 }
 
 .subtitle {
@@ -63,14 +66,14 @@ h1 {
 /* theme colors */
 
 :root {
-    --color-green: #9DFF3A;
-    --color-gradient: #3A7500;
+    --clr-green: #9DFF3A;
+    --clr-gradient: #3A7500;
 
-    --color-neutral-white: #E5E5E5;
-    --color-neutral-gray-1: #999999;
-    --color-neutral-gray-2: #4D4D4D;
-    --color-neutral-gray-3: #2E2E2E;
-    --color-neutral-gray-4: #0F0F0F; 
+    --clr-neutral-white: #E5E5E5;
+    --clr-neutral-gray-1: #999999;
+    --clr-neutral-gray-2: #4D4D4D;
+    --clr-neutral-gray-3: #2E2E2E;
+    --clr-neutral-gray-4: #0F0F0F; 
 }
 
 /* typography */

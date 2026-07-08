@@ -30,5 +30,11 @@ header {
 }
 
 .btn-wrapper-alt-1 > button {
-    padding: 10px 24px;
+    padding: 8px 24px;
+}
+
+.btn-primary {
+    color: #000;
+    border-radius: 40px;
+    background-color: var(--clr-green);
 }
