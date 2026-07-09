@@ -1,0 +1,30 @@
+@use '../../styles/mixins' as mixin;
+
+section {
+    @include mixin.column-center;
+    gap: 60px;
+    padding: 60px;
+
+    background-color: var(--clr-neutral-gray-4);
+}
+
+.title-wrapper {
+    @include mixin.column-center;
+    gap: 20px;
+
+    width: 750px;
+}
+
+.title-wrapper span {
+    background: var(--clr-gradient-2);
+}
+
+.statistics-wrapper {
+    display: flex;
+    text-align: center;
+    gap: 72px;
+}
+
+.statistics-wrapper h2 {
+    color: var(--clr-green);
+}

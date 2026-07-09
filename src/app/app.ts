@@ -4,10 +4,11 @@ import { Header } from "./header/header";
 import { HeroSection } from './hero-section/hero-section';
 import { PartnerSection } from './partner-section/partner-section';
 import { FeaturesSection } from './features-section/features-section';
+import { StatisticsSection } from './statistics-section/statistics-section';
 
 @Component({
   selector: 'app-root',
-  imports: [RouterOutlet, Header, HeroSection, PartnerSection, FeaturesSection],
+  imports: [RouterOutlet, Header, HeroSection, PartnerSection, FeaturesSection, StatisticsSection],
   templateUrl: './app.html',
   styleUrl: './app.scss'
 })
