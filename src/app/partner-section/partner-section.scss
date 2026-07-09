@@ -1,8 +1,7 @@
+@use '../../styles/mixins' as mixin;
+
 section {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
+    @include mixin.column-center;
     gap: 40px;
 
     padding: 40px;
