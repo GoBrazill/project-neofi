@@ -10,6 +10,7 @@ section {
 
 .title-wrapper {
     @include mixin.column-center;
+    text-align: center;
     gap: 20px;
 
     width: 750px;
