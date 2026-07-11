@@ -1,0 +1,43 @@
+@use '../../styles/mixins' as mixin;
+
+section {
+    @include mixin.column-center;
+    gap: 60px;
+    
+    padding: 60px;
+
+    background-color: var(--clr-neutral-gray-4);
+    
+    .title-wrapper {
+        @include mixin.column-center;
+        text-align: center;
+        gap: 20px;   
+
+        width: 860px;
+
+        span {
+            background: var(--clr-gradient-2);
+        }
+    }
+}
+
+.accordion-wrapper {
+    @include mixin.column-center;
+    gap: 30px;
+
+    .accordion {
+        cursor: pointer;
+
+        display: flex;
+        justify-content: space-between;
+
+        width: 800px;
+        padding: 16px 20px;
+
+        border: 1px solid var(--clr-neutral-gray-3);
+
+        p {
+            color: #fff;
+        }
+    }
+}

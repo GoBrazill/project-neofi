@@ -6,10 +6,11 @@ import { PartnerSection } from './partner-section/partner-section';
 import { FeaturesSection } from './features-section/features-section';
 import { StatisticsSection } from './statistics-section/statistics-section';
 import { BlockchainTechnologySection } from './blockchain-technology-section/blockchain-technology-section';
+import { FaqSection } from './faq-section/faq-section';
 
 @Component({
   selector: 'app-root',
-  imports: [RouterOutlet, Header, HeroSection, PartnerSection, FeaturesSection, StatisticsSection, BlockchainTechnologySection],
+  imports: [RouterOutlet, Header, HeroSection, PartnerSection, FeaturesSection, StatisticsSection, BlockchainTechnologySection, FaqSection],
   templateUrl: './app.html',
   styleUrl: './app.scss'
 })
