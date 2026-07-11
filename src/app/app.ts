@@ -8,6 +8,7 @@ import { StatisticsSection } from './statistics-section/statistics-section';
 import { BlockchainTechnologySection } from './blockchain-technology-section/blockchain-technology-section';
 import { FaqSection } from './faq-section/faq-section';
 import { RevolutonarySection } from './revolutonary-section/revolutonary-section';
+import { Footer } from './footer/footer';
 
 @Component({
   selector: 'app-root',
@@ -19,7 +20,8 @@ import { RevolutonarySection } from './revolutonary-section/revolutonary-section
     StatisticsSection, 
     BlockchainTechnologySection, 
     FaqSection,
-    RevolutonarySection],
+    RevolutonarySection,
+    Footer],
   templateUrl: './app.html',
   styleUrl: './app.scss'
 })
