@@ -1,0 +1,27 @@
+@use '../../styles/mixins' as mixin;
+
+section {
+    @include mixin.column-center;
+    
+    padding: 60px 0;
+
+    .title-wrapper {
+        @include mixin.column-center;
+        text-align: center;
+        gap: 20px;
+
+        width: 800px;
+
+        p {
+            font-size: 18px;
+        }
+
+        button {
+            cursor: pointer;
+            padding: 14px 24px;
+
+            color: #000;
+            background-color: var(--clr-green);
+        }
+    }
+}
