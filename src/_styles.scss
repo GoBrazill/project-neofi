@@ -1,13 +1,13 @@
 * {
+    box-sizing: border-box;
     padding: 0;
     margin: 0;
-    border: 0;
-
-    box-sizing: border-box;
+    
     font-family: "Alexandria", sans-serif;
     list-style: none;
     text-decoration: none;
-
+    
+    border: 0;
     background: none;
 }
 
@@ -38,11 +38,13 @@ h1 {
 
 h2 {
     font-size: var(--font-title-2);
+    font-weight: normal;
     color: var(--clr-neutral-white);
 }
 
 h3 {
     font-size: var(--font-subtitle);
+    font-weight: normal;
     color: var(--clr-neutral-white);
 }
 
