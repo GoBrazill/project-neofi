@@ -18,8 +18,24 @@
         </ul>
     </div>
     <div class="btn-wrapper-alt-1">
-        <button>Log in</button>
+        <button class="btn-secondary" (click)="toggleModal()">Login</button>
         <button class="btn-primary">Try For Free</button>
     </div>
 </header>
 
+<div id="modal" [class.modal-visible]="isModalOpen">
+    <img src="/assets/icons/icon-close.svg" alt="" (click)="toggleModal()">
+    <fieldset>
+        <label class="input-container">
+            <img src="/assets/icons/icon-user.svg" alt="">
+            <input type="text" placeholder="Nome">
+        </label>
+
+        <label class="input-container">
+            <img src="/assets/icons/icon-email.svg" alt="">
+            <input type="email" placeholder="Email">
+        </label>
+    </fieldset>
+</div>
+
+<div id="overlay" (click)="toggleModal()" [class.modal-visible]="isModalOpen"></div>
